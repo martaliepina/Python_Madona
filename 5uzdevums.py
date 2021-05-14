@@ -9,3 +9,12 @@ Piezīme:
 Ievaddati: Pamata rādiuss un cilindra augstums
 Izvaddati: Cilindra virsmas laukums un tilpums 
 """
+
+from math import pi
+
+pamatar=float(input("pamatar: "))
+augstums=float(input("augstums: "))
+
+laukums=(pamatar * augstums * pi * 2)
+
+print(laukums)
